@@ -23,13 +23,11 @@ Include the new version of the plugin from OSS Sonatype snapshot, by adding the 
 
     buildscript {
         repositories {
-            maven {
-                url 'https://oss.sonatype.org/content/repositories/snapshots/'
-            }
+            maven { url 'http://releases.marmeladburk.fidesmo.com/' }
         }
 
         dependencies {
-            classpath 'com.fidesmo.gradle:javacard:0.2-SNAPSHOT'
+            classpath 'com.fidesmo.gradle:javacard:0.2.0'
         }
     }
 
